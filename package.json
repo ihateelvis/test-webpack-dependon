@@ -1,0 +1,31 @@
+{
+  "name": "test-webpack-dependon",
+  "version": "1.0.0",
+  "description": "A tiny repo to test out the dependOn feature of webpack",
+  "main": "index.js",
+  "module": "main.js",
+  "scripts": {
+    "build:webpack": "webpack --config=./webpack.config.js",
+    "server": "http-server .",
+    "deploy": "npm run build:webpack && npm run server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ihateelvis/test-webpack-dependon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ihateelvis/test-webpack-dependon/issues"
+  },
+  "homepage": "https://github.com/ihateelvis/test-webpack-dependon#readme",
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "babel-loader": "^8.0.6",
+    "http-server": "^0.12.1",
+    "webpack": "5.0.0-beta.14",
+    "webpack-cli": "3.3.11"
+  }
+}
