@@ -7,8 +7,8 @@ require.config({
 
 define(["modules/ModuleA", "modules/ModuleB", "modules/ModuleC"],
   function(ModuleA, ModuleB, ModuleC) {
-    ModuleC.default();
-    ModuleB.default();
     ModuleA.default();
+    ModuleB.default();
+    ModuleC.default();
   }
 );
