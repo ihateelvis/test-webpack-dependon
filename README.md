@@ -1,7 +1,7 @@
 # test-webpack-dependon
 A tiny repo to test out the dependOn feature of webpack
 
-Follow the following steps to get this running:
+Follow these steps to get this running:
 1. Clone this project. In the base folder, run `npm install` (`npm v6.13.4` and `node v10.18.1` are sufficient).
 1. In the base directory, run `npm run deploy`.
 1. Navigate to:
