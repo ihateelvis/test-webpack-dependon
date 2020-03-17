@@ -5,9 +5,8 @@ require.config({
   }
 });
 
-define(["modules/ModuleC", "modules/ModuleB", "modules/ModuleA"],
-  function(a, b, ModuleA) {
-    // ModuleA.default();
-    console.log(`Contents of A: ${ModuleA}`);
+define(["modules/ModuleA"],
+  function(ModuleA) {
+    ModuleA.default();
   }
 );

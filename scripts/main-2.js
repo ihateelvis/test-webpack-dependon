@@ -5,10 +5,10 @@ require.config({
   }
 });
 
-define(["modules/ModuleA", "modules/ModuleB", "modules/ModuleC"],
-  function(ModuleA, ModuleB, ModuleC) {
-    ModuleA.default();
-    ModuleB.default();
+define(["modules/ModuleC", "modules/ModuleB", "modules/ModuleA"],
+  function(ModuleC, ModuleB, ModuleA) {
     ModuleC.default();
+    ModuleB.default();
+    ModuleA.default();
   }
 );
