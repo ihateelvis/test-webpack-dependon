@@ -26,6 +26,6 @@
     "babel-loader": "^8.0.6",
     "http-server": "^0.12.1",
     "webpack": "5.0.0-beta.14",
-    "webpack-cli": "3.3.11"
+    "webpack-cli": "3.3.12"
   }
 }
